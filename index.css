@@ -1,0 +1,461 @@
+html {
+    background-color: #FFF8F0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.contact {
+    display: flex;
+    /* max-width: auto; */
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.contact-email {
+    margin-left: auto;
+    /* text-align: right; */
+}
+
+
+.portfolioDetailBox {
+    display: flex;
+    max-width: 1900px;
+    margin: 0 auto;
+    /* margin-left: 30px; */
+
+}
+
+.portfolioImage {
+    width: 800px;
+    height: 700px;
+    border-radius: 0 0 0 220px;
+}
+
+
+.portfolioDetailBox-text {
+    max-width: 50%;
+    /* margin-left: 240px; */
+    /* width: auto; */
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.portfolioDetailBox-text-image {
+    margin-top: -55px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.portfolioDetailBox-text-heading {
+    margin-top: -14;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "League Spartan", sans-serif;
+    /* position: absolute; */
+}
+
+.portfolioDetailBox-text-paragraph {
+    font-size: 28px;
+    font: "Poppins";
+}
+
+.contactBtn {
+    width: 140px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.contactBtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.WHATIDO-Section-text-First {
+    margin: 110px auto -130px;
+    text-align: center;
+    max-width: 700px;
+    font-family: "Poppins", sans-serif;
+}
+
+.WHATIDO-Section-text-First span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2858FF;
+}
+
+.WHATIDO-Section-text-First h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5;
+}
+
+.WHATIDO-Section-text-First p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.WHATIDO-Section-text {
+    /* margin-left: 0 auto; */
+    /* margin-top: 130px; */
+    /* position: absolute; */
+    margin: 10px auto 50px;
+    text-align: center;
+    max-width: 700px;
+    font-family: "Poppins", sans-serif;
+}
+
+.WHATIDO-Section-text span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2858FF;
+}
+
+.WHATIDO-Section-text h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5;
+}
+
+.WHATIDO-Section-text p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.WHATIDO-PROJECTS-Section {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* height: 500px; */
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.WHATIDO-Section-redVector {
+    position: absolute;
+    margin: 100 auto 0 -100;
+    z-index: -1;
+}
+
+.WHATIDO-Section-blueVector {
+    position: absolute;
+    margin: -100 auto 0 900;
+    z-index: -1;
+    /* z-index: -1; */
+}
+
+.WHATIDO-PROJECTS-Section-div {
+    width: 340px;
+    height: 240px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    text-align: Center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    /* width: 550px; */
+    /* border: 1px solid black; */
+}
+
+.WHATIDO-PROJECTS-Section-div span {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.WHATIDO-PROJECTS-Section-div p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #55206D;
+    /* font-family: "Inter", sans-serif; */
+}
+
+/* .PROJECTS-Section {
+
+} */
+
+.Projects {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projects-box {
+    width: 200px;
+    height: 130px;
+    background-color: #19ACFF;
+    border-radius: 12px;
+}
+
+.projects-box-2 {
+    width: 420px;
+    height: 130px;
+    background-color: #78f306;
+    border-radius: 12px;
+}
+
+.projects-box-2 h1 {
+    margin: 44px;
+    color: black;
+    font-weight: 700px;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+}
+
+.projects-box-3 {
+    width: 420px;
+    height: 130px;
+    background-color: #FF1919;
+    border-radius: 12px;
+}
+
+.projects-box-3 h1 {
+    margin: 44px;
+    color: rgb(255, 255, 255);
+    font-weight: 700px;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+}
+
+.projects-box h1 {
+    margin: 44px;
+    color: white;
+    font-weight: 700px;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+}
+
+.projects-text h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-size: 18px;
+    color: #291854;
+    margin: 1px 10px 10px 10px
+}
+
+.projects-text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-size: 16px;
+    color: #291854;
+    margin: 0 0 10 10px
+}
+
+.projects-text a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6A87A3;
+    margin: 0 0 0 10px
+}
+
+.PRICING-Text-Section {
+    /* max-width: 50%; */
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.PRICING-Box {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.PRICING-Details-Box {
+    border: 1px solid rgb(255, 255, 255);
+    width: 950px;
+    border-radius: 10px;
+    margin: 10px;
+    background: #ffffff;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.PRICING-Details-Box-SKETCH {
+    border: 1px solid #FFD748;
+    width: 950px;
+    border-radius: 10px;
+    margin: 10px;
+    background: #FFD748;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+
+.PRICING-Details-Box-SKETCH h5 {
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #2858FF;
+}
+
+.PRICING-Details-Box-SKETCH-Price {
+    display: flex;
+}
+
+.PRICING-Details-Box-SKETCH-Price h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 1px;
+}
+
+.PRICING-Details-Box-SKETCH-Price h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8B8B8B;
+    margin: 14px 0 0 10px;
+}
+
+.PRICING-Details-Box-SKETCH-features {
+    display: flex;
+}
+
+.PRICING-Details-Box-SKETCH-features img {
+    height: 14px;
+    width: 14px;
+    color: #000000;
+}
+
+.PRICING-Details-Box-SKETCH-features h6 {
+    margin: -5 0 0 6;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.PRICING-Details-Box-SKETCH-Contact {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.PRICING-Details-Box-SKETCH-Contact:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.PRICING-Details-Box-SKETCH-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    /* max-width: 250px; */
+    line-height: 23px;
+}
+
+.PRICING-Details-Box h5 {
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #2858FF;
+}
+
+.PRICING-Details-Box-Price {
+    display: flex;
+}
+
+.PRICING-Details-Box-Price h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 1px;
+}
+
+.PRICING-Details-Box-Price h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8B8B8B;
+    margin: 14px 0 0 10px;
+}
+
+.PRICING-Details-Box-features {
+    display: flex;
+}
+
+.PRICING-Details-Box-features img {
+    height: 14px;
+    width: 14px;
+}
+
+.PRICING-Details-Box-features h6 {
+    margin: -5 0 0 6;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.PRICING-Details-Box-Contact {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.PRICING-Details-Box-Contact:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.PRICING-Details-Box-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8B8B8B;
+    /* max-width: 250px; */
+    line-height: 23px;
+}
+
+.footer {
+    /* display: flex; */
+    text-align: center;
+    max-width: 1900px;
+    margin: 50px auto 0;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.footer-text {
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
